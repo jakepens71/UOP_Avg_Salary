@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace UOPPOSWeek2ReflectionJacobShay
 {
-    static class Factory
+    abstract class Factory
     {
         public static Departments Get(int id)
         {
@@ -14,7 +14,7 @@ namespace UOPPOSWeek2ReflectionJacobShay
             {
                 case 0:
                     return new ITDepartment();
-                case 1:
+                
                 default:
                     return null;
             }

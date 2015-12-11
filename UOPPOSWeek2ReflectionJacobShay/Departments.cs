@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace UOPPOSWeek2ReflectionJacobShay
 {
-    interface Departments
+    abstract class Departments
     {
-        string GetDepartmentName { get; }
-        double avgSalary { get; }
+        public abstract string GetDepartmentName { get; }
+        public abstract double avgSalary { get; }
     }
 }

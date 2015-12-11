@@ -12,6 +12,8 @@ namespace UOPPOSWeek2ReflectionJacobShay
 {
     public partial class Form1 : Form
     {
+
+
         public Form1()
         {
             InitializeComponent();
@@ -22,8 +24,9 @@ namespace UOPPOSWeek2ReflectionJacobShay
             for (int i = 0; i < 1; i++)
             {
                 var department = Factory.Get(i);
-                Console.WriteLine("Where id = {0}, position = {1}, avg salary = {2}", i, department.GetDepartmentName, department.avgSalary);
+                Console.WriteLine("Where id = {0}, department = {1}, avg salary = {2}", i, department.GetDepartmentName, department.avgSalary);
             }
+
         }
     }
 }
