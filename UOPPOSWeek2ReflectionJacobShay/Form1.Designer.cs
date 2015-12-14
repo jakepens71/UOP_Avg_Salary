@@ -45,9 +45,9 @@
             // lstAnswer
             // 
             this.lstAnswer.FormattingEnabled = true;
-            this.lstAnswer.Location = new System.Drawing.Point(126, 84);
+            this.lstAnswer.Location = new System.Drawing.Point(2, 84);
             this.lstAnswer.Name = "lstAnswer";
-            this.lstAnswer.Size = new System.Drawing.Size(303, 160);
+            this.lstAnswer.Size = new System.Drawing.Size(579, 160);
             this.lstAnswer.TabIndex = 1;
             // 
             // Form1

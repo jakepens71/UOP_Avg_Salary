@@ -35,7 +35,7 @@
   <ItemGroup>
     <Reference Include="RandomEarnings, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Documents\Visual Studio 2015\Projects\RandomEarnings\RandomEarnings\bin\Debug\RandomEarnings.dll</HintPath>
+      <HintPath>..\..\UOP_RandomEarnings\RandomEarnings\bin\Debug\RandomEarnings.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -50,9 +50,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Company.cs" />
     <Compile Include="Departments.cs" />
-    <Compile Include="Employee.cs" />
     <Compile Include="Factory.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -60,6 +58,7 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="HumanResourceDepartment.cs" />
     <Compile Include="ITDepartment.cs" />
     <Compile Include="LoadDLLRandomEarnings.cs" />
     <Compile Include="Program.cs" />
@@ -88,6 +87,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="RandomEarnings.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

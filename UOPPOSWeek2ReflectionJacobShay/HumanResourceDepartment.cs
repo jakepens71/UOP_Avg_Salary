@@ -1,18 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace UOPPOSWeek2ReflectionJacobShay
 {
-
-    /*
-    *The ITDepartment class inherits from Departments
-    *
-    */
-    class ITDepartment : Departments
+    class HumanResourceDepartment : Departments
     {
         //The loadDLLRandomEarnings new object that was created from LoadDLLRandomEarnings
         //loads the assymble dll "RandomEarnings" and then we use this to get the results of avg salary
@@ -20,43 +14,42 @@ namespace UOPPOSWeek2ReflectionJacobShay
         LoadDLLRandomEarnings loadDllRandomEarnings = new LoadDLLRandomEarnings();
 
         /*
-        *Gets the avg salary for the ITDepartment. 
-        *This method is from the "RandomEarnings" dll
-        */
+       *Gets the avg salary for the HumanResource department. 
+       *This method is from the "RandomEarnings" dll
+       */
         public override double avgSalary
         {
             get
             {
-                double salary = loadDllRandomEarnings.getSalary();  //Load in the random salary generated 
-                return salary;  //Return the salary
+                System.Threading.Thread.Sleep(100);
+                double salary = loadDllRandomEarnings.getSalary();
+                return salary;
             }
         }
 
         /*
-       *Gets the number of employees for the ITDepartment. 
-       *This method is from the "RandomEarnings" dll
-       */
+      *Gets the number of employees for the HumanResource department. 
+      *This method is from the "RandomEarnings" dll
+      */
         public override int employees
         {
             get
             {
-                int employees = loadDllRandomEarnings.getEmployees(); //Load in the number of employees
-                return employees;   //Return the number of employees
+                int employees = loadDllRandomEarnings.getEmployees();
+                return employees;
             }
         }
 
         /*
-        *Use this department name for the "ITDepartment" class
+        *Use this department name for the "HumanResourceDepartment" class
         *
         */
         public override string GetDepartmentName
         {
             get
             {
-                return "Information Technology";
+                return "Human Resources";
             }
         }
-
-       
     }
 }

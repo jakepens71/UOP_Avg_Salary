@@ -21,17 +21,47 @@ namespace UOPPOSWeek2ReflectionJacobShay
 
         private void btnExecute_Click(object sender, EventArgs e)
         {
-            for (int i = 0; i < 1; i++)
+            //Clear list box
+            lstAnswer.Items.Clear();
+            //Refresh list box
+            lstAnswer.Refresh();
+
+            //Create variables for the total salary and total employes. Initalize them
+            double totalSalary = 0;
+            int totalEmployees = 0;
+
+            //For loop for the departments
+            for (int i = 0; i < 2; i++)
             {
                 var department = Factory.Get(i);
                 //Console.WriteLine("Where id = {0}, department = {1}, avg salary = {2}", i, department.GetDepartmentName, department.avgSalary);
 
-                string salary = String.Format("{0:C}", department.avgSalary);
+                double dblSalary = double.Parse(department.avgSalary.ToString());
 
-                string answer = "Department: " + department.GetDepartmentName + ", avg salary: " + salary;
+                //Get the number of employees for the department
+                int employees = department.employees;
 
+                //Format the salary into a currency readable string format
+                string salary = String.Format("{0:C}", dblSalary);
+
+                //Simple answer string
+                string answer = "Department: " + department.GetDepartmentName + ", avg salary: " + salary + ", Number Employees: " + employees.ToString();
+                //Add the answer string to the list box
                 lstAnswer.Items.Add(answer);
+                //Refresh the list box
+                lstAnswer.Refresh();
+                //Add the total salary
+                totalSalary = dblSalary + totalSalary;
+                //Keep total of the total employees
+                totalEmployees = totalEmployees + employees;
             }
+
+            //Format the new total salary into currency string format
+            string strTotalSalary = String.Format("{0:C}", totalSalary);
+
+            //Add the final total salary and total employees to the list box
+            lstAnswer.Items.Add("---------------------------");
+            lstAnswer.Items.Add("Total Salary: " + strTotalSalary + ", Total Employees: " + totalEmployees.ToString());
 
         }
     }
