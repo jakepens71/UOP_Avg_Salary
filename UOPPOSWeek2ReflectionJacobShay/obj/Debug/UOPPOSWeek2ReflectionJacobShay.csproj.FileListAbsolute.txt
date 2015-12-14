@@ -9,3 +9,13 @@ C:\Users\Jacob\Desktop\development\UOP_Avg_Salary\UOPPOSWeek2ReflectionJacobShay
 C:\Users\Jacob\Desktop\development\UOP_Avg_Salary\UOPPOSWeek2ReflectionJacobShay\obj\Debug\UOPPOSWeek2ReflectionJacobShay.csproj.GenerateResource.Cache
 C:\Users\Jacob\Desktop\development\UOP_Avg_Salary\UOPPOSWeek2ReflectionJacobShay\obj\Debug\UOPPOSWeek2ReflectionJacobShay.exe
 C:\Users\Jacob\Desktop\development\UOP_Avg_Salary\UOPPOSWeek2ReflectionJacobShay\obj\Debug\UOPPOSWeek2ReflectionJacobShay.pdb
+C:\Users\jshay\Desktop\University of Phoenix\.Net II\UOP_Avg_Salary\UOPPOSWeek2ReflectionJacobShay\bin\Debug\UOPPOSWeek2ReflectionJacobShay.exe.config
+C:\Users\jshay\Desktop\University of Phoenix\.Net II\UOP_Avg_Salary\UOPPOSWeek2ReflectionJacobShay\obj\Debug\UOPPOSWeek2ReflectionJacobShay.exe
+C:\Users\jshay\Desktop\University of Phoenix\.Net II\UOP_Avg_Salary\UOPPOSWeek2ReflectionJacobShay\obj\Debug\UOPPOSWeek2ReflectionJacobShay.pdb
+C:\Users\jshay\Desktop\University of Phoenix\.Net II\UOP_Avg_Salary\UOPPOSWeek2ReflectionJacobShay\bin\Debug\UOPPOSWeek2ReflectionJacobShay.exe
+C:\Users\jshay\Desktop\University of Phoenix\.Net II\UOP_Avg_Salary\UOPPOSWeek2ReflectionJacobShay\bin\Debug\UOPPOSWeek2ReflectionJacobShay.pdb
+C:\Users\jshay\Desktop\University of Phoenix\.Net II\UOP_Avg_Salary\UOPPOSWeek2ReflectionJacobShay\bin\Debug\RandomEarnings.pdb
+C:\Users\jshay\Desktop\University of Phoenix\.Net II\UOP_Avg_Salary\UOPPOSWeek2ReflectionJacobShay\obj\Debug\UOPPOSWeek2ReflectionJacobShay.csprojResolveAssemblyReference.cache
+C:\Users\jshay\Desktop\University of Phoenix\.Net II\UOP_Avg_Salary\UOPPOSWeek2ReflectionJacobShay\obj\Debug\UOPPOSWeek2ReflectionJacobShay.Form1.resources
+C:\Users\jshay\Desktop\University of Phoenix\.Net II\UOP_Avg_Salary\UOPPOSWeek2ReflectionJacobShay\obj\Debug\UOPPOSWeek2ReflectionJacobShay.Properties.Resources.resources
+C:\Users\jshay\Desktop\University of Phoenix\.Net II\UOP_Avg_Salary\UOPPOSWeek2ReflectionJacobShay\obj\Debug\UOPPOSWeek2ReflectionJacobShay.csproj.GenerateResource.Cache
